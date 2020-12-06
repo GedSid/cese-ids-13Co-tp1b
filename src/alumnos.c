@@ -25,18 +25,27 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+/**
+ * Se crea la estructura con los datos del alumno VOLENTINI
+ */
 static const struct alumno_s ESTEBAN_VOLENTINI = {
     .apellidos = "VOLENTINI",
     .nombres = "Esteban Daniel",
     .documento = "23.517.968",
 };
 
+/**
+ * Se crea la estructura con los datos del alumno VOLENTINI
+ */
 static const struct alumno_s JOAQUIN_ULLOA = {
     .apellidos = "ULLOA",
     .nombres = "Joaquin Gaspar",
     .documento = "36.530.838",
 };
 
+/**
+ * Se concatenan las estructuras de todos los alumnos
+ */
 const alumno_t ALUMNOS[] = {
     &ESTEBAN_VOLENTINI,
     &JOAQUIN_ULLOA,
